@@ -210,7 +210,7 @@ async def check_botlog_chatid():
 COUNT_MSG = 0
 USERS = {}
 COUNT_PM = {}
-LASTMSG = {}
+LASTMSG = {} 
 CMD_HELP = {}
 ISAFK = False
 AFKREASON = None
@@ -261,7 +261,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("I'm [UserButt](https://github.com/KeselekPermen69/userbutt) modules helper...\nplease make your own bot, don't use mine 😋")
+                await event.reply("I'm [bot for stigmadotc](https://stigmastore.site) assistant chat...\nplease please tell me what u need, and wait my owner get back 😋")
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
 
