@@ -261,7 +261,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("Hi, saya bot untuk stigmadotc klik untuk menuju website \n\n 🌐[stigmadotc](https://stigmastore.site) \n klik 👇 untuk menghubungi master.\n🕴️[master](t.me/cocomocco) \n\nsemoga harimu menyenangkan 😛")
+                await event.reply("Hi, saya bot untuk stigmadotc klik 👇 untuk menuju website\n🌐[stigmadotc](https://stigmastore.site)\n\n klik 👇 untuk menghubungi master.\n🕴️[master](t.me/cocomocco) \n\nsemoga harimu menyenangkan 😛")
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
 
